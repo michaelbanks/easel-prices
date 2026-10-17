@@ -1,0 +1,33 @@
+{
+  "v": 1,
+  "checked": { "google": "2026-09-30", "fal": "2026-10-02", "fish": "2026-10-14" },
+  "images": {
+    "nano-banana-2": {
+      "google": { "perImage": { "1K": 0.067, "2K": 0.101, "4K": 0.151 }, "perMillionInputTokens": 0.5 },
+      "fal": { "perImage": { "1K": 0.08, "2K": 0.12, "4K": 0.16 }, "perMillionInputTokens": 0 }
+    },
+    "nano-banana-2-lite": {
+      "google": { "perImage": { "1K": 0.0336 }, "perMillionInputTokens": 0.25 }
+    },
+    "nano-banana-pro": {
+      "google": { "perImage": { "1K": 0.134, "2K": 0.134, "4K": 0.24 }, "perMillionInputTokens": 2 },
+      "fal": { "perImage": { "1K": 0.15, "2K": 0.15, "4K": 0.3 }, "perMillionInputTokens": 0 }
+    },
+    "gpt-image-2.5-flare": {
+      "fal": { "perImage": { "1K": 0.013 }, "perMillionInputTokens": 0, "perReference": 0.008 }
+    }
+  },
+  "clips": {
+    "veo-3.1-lite": {
+      "google": { "perSecond": { "720p": 0.05, "1080p": 0.08 } },
+      "fal": { "perSecond": { "720p": 0.05, "1080p": 0.08 }, "silentPerSecond": { "720p": 0.03, "1080p": 0.05 } }
+    },
+    "veo-3.1-fast": {
+      "google": { "perSecond": { "720p": 0.1, "1080p": 0.12 } },
+      "fal": { "perSecond": { "720p": 0.15, "1080p": 0.15 }, "silentPerSecond": { "720p": 0.1, "1080p": 0.1 } }
+    }
+  },
+  "voices": {
+    "fish": { "perMillionBytes": 15 }
+  }
+}
