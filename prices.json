@@ -1,6 +1,6 @@
 {
   "v": 1,
-  "checked": { "google": "2026-09-30", "fal": "2026-10-02", "fish": "2026-10-14" },
+  "checked": { "google": "2026-09-30", "fal": "2026-11-12", "fish": "2026-11-12" },
   "images": {
     "nano-banana-2": {
       "google": { "perImage": { "1K": 0.067, "2K": 0.101, "4K": 0.151 }, "perMillionInputTokens": 0.5 },
